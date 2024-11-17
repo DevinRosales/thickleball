@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":2,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -34,12 +34,20 @@
   },
   "name":"Thickleball",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"menu_button_parent","path":"objects/menu_button_parent/menu_button_parent.yy",},},
+    {"id":{"name":"object_button_start","path":"objects/object_button_start/object_button_start.yy",},},
+    {"id":{"name":"room_1","path":"rooms/room_1/room_1.yy",},},
+    {"id":{"name":"room_menu","path":"rooms/room_menu/room_menu.yy",},},
+    {"id":{"name":"sfx_button_click","path":"sounds/sfx_button_click/sfx_button_click.yy",},},
+    {"id":{"name":"menu_button_quit","path":"sprites/menu_button_quit/menu_button_quit.yy",},},
+    {"id":{"name":"menu_button_start","path":"sprites/menu_button_start/menu_button_start.yy",},},
+    {"id":{"name":"title_screen","path":"sprites/title_screen/title_screen.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"room_menu","path":"rooms/room_menu/room_menu.yy",},},
+    {"roomId":{"name":"room_1","path":"rooms/room_1/room_1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
