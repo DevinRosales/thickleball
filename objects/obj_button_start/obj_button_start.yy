@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"object_button_start",
+  "%Name":"obj_button_start",
   "eventList":[],
   "managed":true,
-  "name":"object_button_start",
+  "name":"obj_button_start",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"main_menu_buttons",
+    "path":"folders/Objects/main_menu_buttons.yy",
   },
   "parentObjectId":{
     "name":"menu_button_parent",

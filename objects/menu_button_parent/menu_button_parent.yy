@@ -11,8 +11,8 @@
   "name":"menu_button_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"main_menu_buttons",
+    "path":"folders/Objects/main_menu_buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,
