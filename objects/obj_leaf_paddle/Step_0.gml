@@ -14,9 +14,9 @@ left_boundary = 0;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3CD94AC5
-/// @DnDArgument : "expr" "room_width"
+/// @DnDArgument : "expr" "room_width-sprite_width"
 /// @DnDArgument : "var" "right_boundary"
-right_boundary = room_width;
+right_boundary = room_width-sprite_width;
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
