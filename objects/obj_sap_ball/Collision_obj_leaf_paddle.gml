@@ -6,3 +6,10 @@
 with(obj_sap_ball) {
 direction = choose(135,90,45);
 }
+
+/// @DnDAction : YoYo Games.Movement.Set_Speed
+/// @DnDVersion : 1
+/// @DnDHash : 0CD5D710
+/// @DnDArgument : "speed" "3"
+/// @DnDArgument : "speed_relative" "1"
+speed += 3;
