@@ -1,16 +1,18 @@
-/// @DnDAction : YoYo Games.Instance Variables.Set_Health
+/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 0492C246
-/// @DnDArgument : "health" "-1"
-__dnd_health = real(-1);
+/// @DnDHash : 280D9E08
+/// @DnDArgument : "expr" "-1"
+/// @DnDArgument : "expr_relative" "1"
+/// @DnDArgument : "var" "hitpoints"
+hitpoints += -1;
 
-/// @DnDAction : YoYo Games.Instance Variables.If_Health
+/// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 15908879
+/// @DnDHash : 77725382
+/// @DnDArgument : "var" "hitpoints"
 /// @DnDArgument : "op" "3"
-if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
-if(__dnd_health <= 0){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+if(hitpoints <= 0){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
-	/// @DnDHash : 4489E8B3
-	/// @DnDParent : 15908879
+	/// @DnDHash : 6DBA0754
+	/// @DnDParent : 77725382
 	instance_destroy();}
