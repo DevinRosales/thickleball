@@ -8,7 +8,7 @@ move_bounce_solid(true);
 /// @DnDAction : YoYo Games.Instances.Call_User_Event
 /// @DnDVersion : 1
 /// @DnDHash : 000FBFB5
-/// @DnDApplyTo : {brick_base}
-with(brick_base) {
+/// @DnDApplyTo : other
+with(other) {
 event_user(0);
 }
