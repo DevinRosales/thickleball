@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"sap_ball",
+  "%Name":"sap_ball_spr",
   "bboxMode":2,
   "bbox_bottom":508,
   "bbox_left":302,
@@ -16,23 +16,23 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":1052,
+  "height":212,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"342c6263-acac-41dd-949c-b162e90ba320","blendMode":0,"displayName":"default","isLocked":false,"name":"342c6263-acac-41dd-949c-b162e90ba320","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"sap_ball",
+  "name":"sap_ball_spr",
   "nineSlice":{
     "$GMNineSliceData":"",
-    "bottom":0,
+    "bottom":109,
     "enabled":false,
     "guideColour":[4294902015,4294902015,4294902015,4294902015,],
     "highlightColour":1728023040,
     "highlightStyle":0,
-    "left":0,
+    "left":60,
     "resourceType":"GMNineSliceData",
     "resourceVersion":"2.0",
-    "right":0,
+    "right":65,
     "tileMode":[
       0,
       0,
@@ -40,7 +40,7 @@
       0,
       0,
     ],
-    "top":0,
+    "top":79,
   },
   "origin":0,
   "parent":{
@@ -52,7 +52,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"sap_ball",
+    "%Name":"sap_ball_spr",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -76,7 +76,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"sap_ball",
+    "name":"sap_ball_spr",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -88,7 +88,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"52bc0e67-5e2b-43bb-bd00-af3eeddf3a00","path":"sprites/sap_ball/sap_ball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"52bc0e67-5e2b-43bb-bd00-af3eeddf3a00","path":"sprites/sap_ball_spr/sap_ball_spr.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"1ba5268d-dcac-40d1-aaa5-5935e126362f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
@@ -105,5 +105,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":744,
+  "width":150,
 }

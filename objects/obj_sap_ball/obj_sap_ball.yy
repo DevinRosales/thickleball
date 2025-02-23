@@ -6,6 +6,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_leaf_paddle","path":"objects/obj_leaf_paddle/obj_leaf_paddle.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"boundary_base","path":"objects/boundary_base/boundary_base.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"brick_base","path":"objects/brick_base/brick_base.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_sap_ball",
@@ -36,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"sap_ball",
-    "path":"sprites/sap_ball/sap_ball.yy",
+    "name":"sap_ball_spr",
+    "path":"sprites/sap_ball_spr/sap_ball_spr.yy",
   },
   "spriteMaskId":null,
   "visible":true,

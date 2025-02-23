@@ -21,6 +21,9 @@ if(lives == 0){	/// @DnDAction : YoYo Games.Sequences.Sequence_Create
 	/// @DnDVersion : 1
 	/// @DnDHash : 33A3969D
 	/// @DnDParent : 09D1B2C9
+	/// @DnDArgument : "xpos" "room_width/2"
+	/// @DnDArgument : "ypos" "room_height/2"
 	/// @DnDArgument : "sequenceid" "lives_lost"
+	/// @DnDArgument : "layer" ""Assets_1""
 	/// @DnDSaveInfo : "sequenceid" "lives_lost"
-	variable = layer_sequence_create("Assets", 0, 0, lives_lost);}
+	variable = layer_sequence_create("Assets_1", room_width/2, room_height/2, lives_lost);}
