@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 65D57AF4
-/// @DnDArgument : "expr" "5"
+/// @DnDArgument : "expr" "3"
 /// @DnDArgument : "var" "lives"
-lives = 5;
+lives = 3;
 
 /// @DnDAction : YoYo Games.Audio.Stop_Audio
 /// @DnDVersion : 1
