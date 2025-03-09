@@ -26,3 +26,14 @@ var l25F1816B_0 = game_music;if (!audio_is_playing(l25F1816B_0)){	/// @DnDAct
 	/// @DnDArgument : "loop" "1"
 	/// @DnDSaveInfo : "soundid" "game_music"
 	audio_play_sound(game_music, 0, 1, 1.0, undefined, 1.0);}
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 23A4E104
+/// @DnDInput : 2
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "expr_1" "-1"
+/// @DnDArgument : "var" "paused"
+/// @DnDArgument : "var_1" "paused_surface"
+paused = false;
+paused_surface = -1;
