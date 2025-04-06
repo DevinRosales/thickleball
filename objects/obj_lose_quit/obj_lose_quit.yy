@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_button_start",
+  "%Name":"obj_lose_quit",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_button_start",
+  "name":"obj_lose_quit",
   "overriddenProperties":[],
   "parent":{
     "name":"menu_buttons",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"menu_button_start",
-    "path":"sprites/menu_button_start/menu_button_start.yy",
+    "name":"lose_quit_button_sprite",
+    "path":"sprites/lose_quit_button_sprite/lose_quit_button_sprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

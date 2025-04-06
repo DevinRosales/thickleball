@@ -6,8 +6,8 @@
   "name":"obj_you_lose_banner",
   "overriddenProperties":[],
   "parent":{
-    "name":"main_menu_buttons",
-    "path":"folders/Objects/main_menu_buttons.yy",
+    "name":"menu_buttons",
+    "path":"folders/Objects/menu_buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

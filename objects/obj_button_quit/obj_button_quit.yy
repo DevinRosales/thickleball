@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
   "%Name":"obj_button_quit",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_button_quit",
   "overriddenProperties":[],
   "parent":{
-    "name":"main_menu_buttons",
-    "path":"folders/Objects/main_menu_buttons.yy",
+    "name":"menu_buttons",
+    "path":"folders/Objects/menu_buttons.yy",
   },
   "parentObjectId":{
     "name":"menu_button_parent",
