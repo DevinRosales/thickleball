@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.4469,
+  "duration":0.44408163,
   "name":"sfx_button_click",
   "parent":{
     "name":"Sounds",

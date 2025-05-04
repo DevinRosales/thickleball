@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":90.07023,
+  "duration":90.070206,
   "name":"powerup_music",
   "parent":{
     "name":"Sounds",
