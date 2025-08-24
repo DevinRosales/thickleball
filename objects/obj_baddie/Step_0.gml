@@ -8,12 +8,11 @@
 /// @DnDArgument : "y1_relative" "1"
 /// @DnDArgument : "x2" "100"
 /// @DnDArgument : "x2_relative" "1"
-/// @DnDArgument : "y2" "100"
 /// @DnDArgument : "y2_relative" "1"
 /// @DnDArgument : "obj" "obj_sap_ball"
 /// @DnDArgument : "shape" "2"
 /// @DnDSaveInfo : "obj" "obj_sap_ball"
-var l563A63E1_0 = collision_ellipse(x + -100, y + -100, x + 100, y + 100, obj_sap_ball, true, 1);if((l563A63E1_0)){	/// @DnDAction : YoYo Games.Common.If_Variable
+var l563A63E1_0 = collision_ellipse(x + -100, y + -100, x + 100, y + 0, obj_sap_ball, true, 1);if((l563A63E1_0)){	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 7C32DED1
 	/// @DnDComment : Then check if the baddie is$(13_10)not attacking right now
@@ -63,15 +62,44 @@ var l563A63E1_0 = collision_ellipse(x + -100, y + -100, x + 100, y + 100, obj_sa
 		/// @DnDArgument : "var" "dist_x"
 		/// @DnDArgument : "op" "1"
 		/// @DnDArgument : "value" "-50"
-		if(dist_x < -50){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+		if(dist_x < -50){	/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 2BDCAA03
+			/// @DnDParent : 59B43C8A
+			/// @DnDArgument : "expr" "180"
+			/// @DnDArgument : "var" "baddie_direction"
+			baddie_direction = 180;
+		
+			/// @DnDAction : YoYo Games.Instances.Set_Sprite
 			/// @DnDVersion : 1
 			/// @DnDHash : 21AB0A25
 			/// @DnDComment : Switch to the 'side attack'$(13_10)sprite
 			/// @DnDParent : 59B43C8A
+			/// @DnDArgument : "imageind" "1"
 			/// @DnDArgument : "spriteind" "spr_baddie_attack_side"
 			/// @DnDSaveInfo : "spriteind" "spr_baddie_attack_side"
 			sprite_index = spr_baddie_attack_side;
-			image_index = 0;
+			image_index = 1;
+		
+			/// @DnDAction : YoYo Games.Instances.Create_Instance
+			/// @DnDVersion : 1
+			/// @DnDHash : 0F41A0EC
+			/// @DnDParent : 59B43C8A
+			/// @DnDArgument : "xpos_relative" "1"
+			/// @DnDArgument : "ypos_relative" "1"
+			/// @DnDArgument : "var" "sword"
+			/// @DnDArgument : "var_temp" "1"
+			/// @DnDArgument : "objectid" "obj_sword_attack"
+			/// @DnDSaveInfo : "objectid" "obj_sword_attack"
+			var sword = instance_create_layer(x + 0, y + 0, "Instances", obj_sword_attack);
+		
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 61FEDAA5
+			/// @DnDParent : 59B43C8A
+			/// @DnDArgument : "expr" "baddie_direction"
+			/// @DnDArgument : "var" "sword.image_angle"
+			sword.image_angle = baddie_direction;
 		
 			/// @DnDAction : YoYo Games.Instances.Sprite_Scale
 			/// @DnDVersion : 1
@@ -99,10 +127,38 @@ var l563A63E1_0 = collision_ellipse(x + -100, y + -100, x + 100, y + 100, obj_sa
 				/// @DnDHash : 6C0652B6
 				/// @DnDComment : Switch to the 'side attack'$(13_10)sprite
 				/// @DnDParent : 54A9D79A
+				/// @DnDArgument : "imageind" "1"
 				/// @DnDArgument : "spriteind" "spr_baddie_attack_side"
 				/// @DnDSaveInfo : "spriteind" "spr_baddie_attack_side"
 				sprite_index = spr_baddie_attack_side;
-				image_index = 0;
+				image_index = 1;
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 6873F89F
+				/// @DnDParent : 54A9D79A
+				/// @DnDArgument : "var" "baddie_direction"
+				baddie_direction = 0;
+			
+				/// @DnDAction : YoYo Games.Instances.Create_Instance
+				/// @DnDVersion : 1
+				/// @DnDHash : 6A44A264
+				/// @DnDParent : 54A9D79A
+				/// @DnDArgument : "xpos_relative" "1"
+				/// @DnDArgument : "ypos_relative" "1"
+				/// @DnDArgument : "var" "sword"
+				/// @DnDArgument : "var_temp" "1"
+				/// @DnDArgument : "objectid" "obj_sword_attack"
+				/// @DnDSaveInfo : "objectid" "obj_sword_attack"
+				var sword = instance_create_layer(x + 0, y + 0, "Instances", obj_sword_attack);
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 3F52E85C
+				/// @DnDParent : 54A9D79A
+				/// @DnDArgument : "expr" "baddie_direction"
+				/// @DnDArgument : "var" "sword.image_angle"
+				sword.image_angle = baddie_direction;
 			
 				/// @DnDAction : YoYo Games.Instances.Sprite_Scale
 				/// @DnDVersion : 1
@@ -119,25 +175,46 @@ var l563A63E1_0 = collision_ellipse(x + -100, y + -100, x + 100, y + 100, obj_sa
 			else{	/// @DnDAction : YoYo Games.Common.If_Variable
 				/// @DnDVersion : 1
 				/// @DnDHash : 4EE25C5F
-				/// @DnDComment : If the Y distance is less than -50$(13_10)meaning the player is ABOVE the$(13_10)baddie
+				/// @DnDComment : If the Y distance is less than -50$(13_10)meaning the player is BELOW the$(13_10)baddie
 				/// @DnDParent : 41390493
 				/// @DnDArgument : "var" "dist_y"
 				/// @DnDArgument : "op" "2"
 				/// @DnDArgument : "value" "-30"
-				if(dist_y > -30){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+				if(dist_y > -30){	/// @DnDAction : YoYo Games.Common.Variable
+					/// @DnDVersion : 1
+					/// @DnDHash : 1E87E93C
+					/// @DnDParent : 4EE25C5F
+					/// @DnDArgument : "expr" "270"
+					/// @DnDArgument : "var" "baddie_direction"
+					baddie_direction = 270;
+				
+					/// @DnDAction : YoYo Games.Instances.Create_Instance
+					/// @DnDVersion : 1
+					/// @DnDHash : 6B5C24A4
+					/// @DnDParent : 4EE25C5F
+					/// @DnDArgument : "xpos_relative" "1"
+					/// @DnDArgument : "ypos_relative" "1"
+					/// @DnDArgument : "var" "sword"
+					/// @DnDArgument : "var_temp" "1"
+					/// @DnDArgument : "objectid" "obj_sword_attack"
+					/// @DnDSaveInfo : "objectid" "obj_sword_attack"
+					var sword = instance_create_layer(x + 0, y + 0, "Instances", obj_sword_attack);
+				
+					/// @DnDAction : YoYo Games.Common.Variable
+					/// @DnDVersion : 1
+					/// @DnDHash : 0EDA4F41
+					/// @DnDParent : 4EE25C5F
+					/// @DnDArgument : "expr" "baddie_direction"
+					/// @DnDArgument : "var" "sword.image_angle"
+					sword.image_angle = baddie_direction;
+				
+					/// @DnDAction : YoYo Games.Instances.Set_Sprite
 					/// @DnDVersion : 1
 					/// @DnDHash : 2C0B24A6
 					/// @DnDComment : Switch to the 'down attack'$(13_10)sprite
 					/// @DnDParent : 4EE25C5F
+					/// @DnDArgument : "imageind" "1"
 					/// @DnDArgument : "spriteind" "spr_baddie_attack_down"
 					/// @DnDSaveInfo : "spriteind" "spr_baddie_attack_down"
 					sprite_index = spr_baddie_attack_down;
-					image_index = 0;}}}
-	
-		/// @DnDAction : YoYo Games.Common.Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 43B044AC
-		/// @DnDParent : 7C32DED1
-		/// @DnDArgument : "expr" "false"
-		/// @DnDArgument : "var" "attacking"
-		attacking = false;}}
+					image_index = 1;}}}}}

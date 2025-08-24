@@ -24,3 +24,9 @@ attacking = false;
 /// @DnDArgument : "relative" "true"
 /// @DnDSaveInfo : "path" "Path1"
 path_start(Path1, move_speed, path_action_continue, true);
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 490A35BA
+/// @DnDArgument : "var" "baddie_direction"
+baddie_direction = 0;
