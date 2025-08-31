@@ -1,6 +1,6 @@
-/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+/// @DnDAction : YoYo Games.Instances.Sprite_Rotate
 /// @DnDVersion : 1
-/// @DnDHash : 0D868792
-/// @DnDArgument : "value" "move_speed"
-/// @DnDArgument : "value_relative" "1"
-x += move_speed;
+/// @DnDHash : 6966917B
+/// @DnDArgument : "angle" "20"
+/// @DnDArgument : "angle_relative" "1"
+image_angle += 20;
