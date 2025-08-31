@@ -30,14 +30,6 @@ if(vspeed > 0){	/// @DnDAction : YoYo Games.Audio.Play_Audio
 
 	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 	/// @DnDVersion : 1
-	/// @DnDHash : 06FF438F
-	/// @DnDParent : 2CFC49C2
-	/// @DnDArgument : "value" "clamp(direction,15,165)"
-	/// @DnDArgument : "instvar" "2"
-	direction = clamp(direction,15,165);
-
-	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
-	/// @DnDVersion : 1
 	/// @DnDHash : 3CDDE633
 	/// @DnDParent : 2CFC49C2
 	/// @DnDArgument : "value" "10"

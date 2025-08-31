@@ -1,3 +1,15 @@
+/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+/// @DnDVersion : 1
+/// @DnDHash : 6FF7FEE1
+/// @DnDArgument : "value" "mouse_x"
+x = mouse_x;
+
+/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+/// @DnDVersion : 1
+/// @DnDHash : 54D5EF22
+/// @DnDArgument : "value" "lerp(x, mouse_x, 0.2)"
+x = lerp(x, mouse_x, 0.2);
+
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 561162CB
