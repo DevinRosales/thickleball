@@ -39,6 +39,6 @@ if(vspeed > 0){	/// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDAction : YoYo Games.Common.Function_Call
 /// @DnDVersion : 1
 /// @DnDHash : 358C1222
-/// @DnDArgument : "function" "move_bounce_solid"
+/// @DnDArgument : "function" "move_bounce_all"
 /// @DnDArgument : "arg" "true"
-move_bounce_solid(true);
+move_bounce_all(true);
