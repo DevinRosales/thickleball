@@ -64,6 +64,7 @@
     {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},},
     {"id":{"name":"room_1","path":"rooms/room_1/room_1.yy",},},
     {"id":{"name":"room_menu","path":"rooms/room_menu/room_menu.yy",},},
+    {"id":{"name":"left_slap_sequence","path":"sequences/left_slap_sequence/left_slap_sequence.yy",},},
     {"id":{"name":"lives_lost","path":"sequences/lives_lost/lives_lost.yy",},},
     {"id":{"name":"pause_sequence","path":"sequences/pause_sequence/pause_sequence.yy",},},
     {"id":{"name":"explode","path":"sounds/explode/explode.yy",},},
