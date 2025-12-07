@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"starting_leaf",
-    "path":"sprites/starting_leaf/starting_leaf.yy",
+    "name":"log",
+    "path":"sprites/log/log.yy",
   },
   "spriteMaskId":null,
   "visible":true,
