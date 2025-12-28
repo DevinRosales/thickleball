@@ -40,7 +40,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.1.210",
+    "IDEVersion":"2024.14.2.213",
   },
   "name":"Thickleball",
   "resources":[
@@ -96,6 +96,7 @@
     {"id":{"name":"spr_right_slap","path":"sprites/spr_right_slap/spr_right_slap.yy",},},
     {"id":{"name":"spr_snail","path":"sprites/spr_snail/spr_snail.yy",},},
     {"id":{"name":"spr_sword_attack","path":"sprites/spr_sword_attack/spr_sword_attack.yy",},},
+    {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"starting_leaf","path":"sprites/starting_leaf/starting_leaf.yy",},},
     {"id":{"name":"title_screen","path":"sprites/title_screen/title_screen.yy",},},
     {"id":{"name":"you_lose_sprite","path":"sprites/you_lose_sprite/you_lose_sprite.yy",},},
